@@ -7,7 +7,7 @@ header {
     margin: 1rem auto;
     border: 1px;
     padding: 1rem;
-    background-color: aqua;
+    background-color: slateblue;
 }
 
 main {
@@ -15,7 +15,7 @@ main {
     margin: 1rem auto;
     border: 1px;
     padding: 1rem;
-    background-color: aqua;
+    background-color: slateblue;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
@@ -26,7 +26,7 @@ footer {
     margin: 1rem auto;
     border: 1px;
     padding: 1rem;
-    background-color: aqua;
+    background-color: slateblue;
 }
 
 section {
