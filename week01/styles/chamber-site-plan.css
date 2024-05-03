@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* html selectors */
+
+main img {
+    border: 5px solid black;
+}
+
+main h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* class selectors */
+.p1 {
+    color: #564138;
+}
+
+.p2 {
+    color: #2E86AB;
+}
+
+.p3 {
+    color: #F6F5AE;
+}
+
+.p4 {
+    color: #F5F749;
+}
+
+.p5 {
+    color: #F24236;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+/* id selectors /*

@@ -8,7 +8,7 @@ body{
     font-style: normal;
 }
 
-header {
+header {   
     font-size: large;
     display: flex;
     align-items: center;
