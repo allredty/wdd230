@@ -26,13 +26,12 @@ button.addEventListener('click', () => {
         list.append(li);
 
         //add an event listener to the delete button that removes the li element when clicked
-        deleteButton.addEventListener('click', function () {
+        deleteButton.addEventListener('click', () => {
             list.removeChild(li);
             input.focus();
+            input.value('');
         });
 
-        //change the input value to nothing or the empty string to clean up the interface for the user
-        input.value('');
 
     } else {
         input.focus()
