@@ -22,10 +22,17 @@
     grid-column: 3 / 4;
 }
 
-nav {
-    display: flex;
+#menu {
+    display: none;
+}
+
+.navigation {
     flex-direction: row;
-    padding: 10px;
+}
+
+.navigation a {
+    display: block;
+    flex: 1 1 100%;
 }
 
 }

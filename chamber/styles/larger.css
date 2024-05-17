@@ -1,0 +1,62 @@
+@media screen and (min-width: 32rem){
+    #menu {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .open a {
+        display: block;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+        font-weight: bold;
+        margin-top: 18px;
+    }
+
+    .weather-text {
+        font-size: 100px;
+    }
+
+    .sign-text {
+        font-size: 100px;
+    }
+    
+    .weather-image {
+        height: 300px;
+        width: 500px;
+        margin: 100px;
+    }
+
+    .sign-image {
+        height: 300px;
+        width: 500px;
+        margin: 100px;
+    }
+    
+
+    .place1 {
+        width: 300px;
+    }
+
+    .place2 {
+        margin-left: 200px;
+        margin-right: 200px;
+        width: 300px;
+    }
+
+    .place3 {
+        width: 300px;
+    }
+}

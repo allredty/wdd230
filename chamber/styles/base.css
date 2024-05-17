@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* Font info
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+*/
+
+
+/* HTML selectors */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: block;
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    top: 50px;
+}
+
+
+footer {
+    background-color: #F24236;
+    padding: 20px;
+    text-align: center;
+}
+  
+footer p {
+    margin: 5px 0;
+}
+
+/* Class selectors */
+
+
+.logo {
+    height: 90px;
+    width: 125px;
+}
+
+.navigation a{
+    display: none;
+    text-decoration: none;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 25px;
+}
+
+.navigation a:hover {
+    color: #888a12;
+}
+
+
+.join-bar {
+    height: 80px;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F24236;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.join-button {
+    width: 120px;
+    height: 40px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #007bff;
+}
+
+.open a {
+	display: block;
+}
+
+
+/* Images and it's text */
+.card-1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin: 20px;
+}
+
+.weather-image:hover {
+    opacity: .6;
+    transform: scale(1.1);
+
+}
+
+.sign-image:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.hero-image {
+    border: 10px solid;
+    border-color: rgb(59, 58, 58);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sign-image {
+    width: 285px;
+    border: 10px solid;
+    border-color: rgb(59, 58, 58);
+    border-radius: 5px;
+    transition: transform .5s;
+}
+
+.weather-image {
+    width: 285px;
+    border: 10px solid;
+    border-color: rgb(59, 58, 58);
+    border-radius: 5px;
+    transition: transform .5s;
+}
+
+.card-2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.place1 {
+    width: 200px;
+    margin-top: 40px;
+    border: 10px solid;
+    border-color: rgb(59, 58, 58);
+}
+
+.place2 {
+    width: 200px;
+    margin-top: 40px;
+    border: 10px solid;
+    border-color: rgb(59, 58, 58);
+}
+
+.place3 {
+    width: 200px;
+    margin-top: 40px;
+    border: 10px solid;
+    border-color: rgb(59, 58, 58);
+}
+ 
+
+.contact-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.social {
+    margin-top: 10px;
+}
+
+.social a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+/* ID selectors */
+
+#lastmodified {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	top: 2rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
