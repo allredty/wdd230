@@ -36,7 +36,7 @@ header {
 }
 
 .pic-of-me {
-    width: 150px;
+    width: 160px;
     height: 180px;
     vertical-align: middle;
     box-shadow: 5px 5px 25px;
@@ -163,6 +163,19 @@ li a {
     background-color: #C2CAE8;
     border-radius: 5px 5px 0 0;
 }
+
+.visits {
+    margin-left: 50%;
+}
+
+.hometown {
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+}
+
 
 footer {
     background-color: #C2CAE8;
