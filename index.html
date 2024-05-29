@@ -33,8 +33,33 @@
         <a href="week01/chamber-site-plan.html">Site Plan</a>
         <a href="#">Form</a>
     </nav>
+
+    <div class="hero-image">
+        <picture>
+          <source
+            media="(max-width: 400px)"
+            srcset="images/hero-small.webp"
+            class="hero-small">
+          <source
+            media="(max-width: 1000px)"
+            srcset="images/hero-medium.webp"
+            class="hero-medium">
+            
+          <img
+            src="images/hero-large.webp"
+            alt="Ghana Kumasi Temple"
+            loading="lazy"
+            width="10"
+            height="700">
+        </picture>
+
+        <div class="hero-label">
+            <p class="hero-text">Ghana Kumasi Temple</p>
+        </div>
     <main>
+
     <h1 class="main-heading">WDD 230: Web Frontend Development</h1>
+
     <section class="card card1">
         <h2 class="card-info">Learning Activities</h2>
         <ul>
@@ -47,12 +72,14 @@
         </ul>
         <a href=""></a>
     </section>
+
     <section class="card card2">
         <h2 class="card-info">Information</h2>
         <p class="info">Weather</p>
         <P class="info">Vists to page</P>
     </section>
     </main>
+
     <footer>
         <p>&copy;2024 | Tyler G. Allred | United States <img class="texas-flag" src="images/Flag_of_Texas.jpg" alt="texas flag"></p>
         <p id="lastModified">Last Modified: </p>
