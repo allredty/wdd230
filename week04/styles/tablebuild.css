@@ -1,0 +1,56 @@
+
+:root {
+    --foredark: hsla(0,0%,10%,1);
+	--border: hsla(0,0%,20%,.8);
+	--borderlight: hsla(0,0%,33%,.3);
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+
+table {
+    border: thin solid var(--border);
+    border-collapse: collapse;
+}
+.head-text{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.blank {
+    margin: 0;
+    pad: 0;
+    background-color: black;
+}
+
+.text {
+    background-color: gray;
+    color: white;
+}
+
+
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+      color: var(--back);
+      font-size: .85rem;
+  }
