@@ -60,6 +60,9 @@ header {
 	content: "❌";
 }
 
+#mode {
+    margin-right: 25px;
+}
 
 .navigation {
 	display: flex;

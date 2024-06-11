@@ -1,0 +1,78 @@
+
+/* root */
+:root {
+    --main-btn-color: #111D4A;
+    --main-display: block;
+    --main-padding: 1rem;
+  }
+
+/* HTML Selectors */
+
+main {
+    display: var(--main-display);
+    background-color: antiquewhite;
+    border: 10px solid #111D4A;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    max-width: 600px;
+    margin-left: 28%;
+    margin-bottom: 70px;
+}
+
+main form div {
+    padding: var(--main-padding);
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* Class Selectors */
+
+.rate-title {
+    margin-left: 42%;
+}
+
+.button {
+    cursor: pointer;
+    color: white;
+    background: var(--main-btn-color);
+    margin-left: 42%;
+}
+
+/* ID Selectors */
+
+#username {
+    display: block;
+    font-size: larger;
+}
+
+#password {
+    display: block;
+    font-size: larger;
+}
+
+#rePassword {
+    display: block;
+    font-size: larger;
+}
+
+#email {
+    display: block;
+    font-size: larger;
+}
+
+#rangevalues {
+    font-size: larger;
+    width: 100%;
+}
+
+#rangevalue {
+    text-align: center;
+}
+
+#r {
+    width: 100%;
+}
+
