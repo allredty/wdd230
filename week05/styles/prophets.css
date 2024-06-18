@@ -1,0 +1,58 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* HTML selectors */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    text-align: center;
+    width: 1000px;
+}
+
+img {
+    box-shadow: 0 0 10px black;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 5px;
+}
+
+p {
+    padding: 10px;
+}
+
+section {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    font-size: large;
+}
+
+footer div {
+    margin-top: 25px;
+}
+
+/*Class selectors*/
+
+/* ID selectors*/
