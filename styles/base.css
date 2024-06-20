@@ -146,6 +146,10 @@ li {
     margin-bottom: 10px;
 }
 
+li a:hover {
+    color: red;
+}
+
 li a {
     text-decoration: none;
 }
