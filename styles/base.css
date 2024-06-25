@@ -165,7 +165,13 @@ li a {
 
 .card2 {
     grid-column: 1;
+    text-align: center;
 }
+
+.card2 figure {
+    text-decoration: underline;
+}
+
 
 .card-info {
     text-align: center;

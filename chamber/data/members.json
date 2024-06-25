@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Tech Innovators Inc.",
+        "address": "123 Tech Lane, Silicon Valley, CA 94043",
+        "phone_number": "(123) 456-7890",
+        "website_url": "https://www.apple.com",
+        "image_icon": "tech_innovators.png",
+        "membership_level": "Platinum",
+        "additional_info": {
+            "industry": "Technology",
+            "founded": 2005,
+            "employee_count": 500
+        }
+    },
+    {
+        "name": "Green Energy Solutions",
+        "address": "456 Green St, Austin, TX 73301",
+        "phone_number": "(234) 567-8901",
+        "website_url": "https://www.tesla.com",
+        "image_icon": "green_energy.png",
+        "membership_level": "Gold",
+        "additional_info": {
+            "industry": "Renewable Energy",
+            "founded": 2010,
+            "employee_count": 200
+        }
+    },
+    {
+        "name": "HealthCare Partners",
+        "address": "789 Health Blvd, Boston, MA 02115",
+        "phone_number": "(345) 678-9012",
+        "website_url": "amazon.com",
+        "image_icon": "healthcare_partners.png",
+        "membership_level": "Silver",
+        "additional_info": {
+            "industry": "Healthcare",
+            "founded": 1998,
+            "employee_count": 1000
+        }
+    },
+    {
+        "name": "EduTech Ltd.",
+        "address": "321 Learning Rd, Cambridge, MA 02138",
+        "phone_number": "(456) 789-0123",
+        "website_url": "netflix.com",
+        "image_icon": "edutech.png",
+        "membership_level": "Platinum",
+        "additional_info": {
+            "industry": "Education Technology",
+            "founded": 2015,
+            "employee_count": 150
+        }
+    },
+    {
+        "name": "Finance Gurus",
+        "address": "654 Finance Ave, New York, NY 10001",
+        "phone_number": "(567) 890-1234",
+        "website_url": "fortnite.com",
+        "image_icon": "finance_gurus.png",
+        "membership_level": "Gold",
+        "additional_info": {
+            "industry": "Financial Services",
+            "founded": 2000,
+            "employee_count": 300
+        }
+    },
+    {
+        "name": "Foodies United",
+        "address": "987 Gourmet St, San Francisco, CA 94110",
+        "phone_number": "(678) 901-2345",
+        "website_url": "microsoft.com",
+        "image_icon": "foodies_united.png",
+        "membership_level": "Silver",
+        "additional_info": {
+            "industry": "Food & Beverage",
+            "founded": 2012,
+            "employee_count": 80
+        }
+    },
+    {
+        "name": "Creative Studios",
+        "address": "159 Creative Way, Los Angeles, CA 90028",
+        "phone_number": "(789) 012-3456",
+        "website_url": "xbox.com",
+        "image_icon": "creative_studios.png",
+        "membership_level": "Bronze",
+        "additional_info": {
+            "industry": "Media & Entertainment",
+            "founded": 2008,
+            "employee_count": 50
+        }
+    }
+]
