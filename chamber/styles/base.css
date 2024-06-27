@@ -407,3 +407,34 @@ input {
     margin-left: 15px;
 }
 
+/* Stuff for directory page */
+
+/* Existing CSS rules */
+
+/* Directory grid view */
+.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-view .member-card {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Directory list view */
+.list-view {
+    display: block;
+}
+
+.list-view .member-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
