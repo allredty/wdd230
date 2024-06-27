@@ -20,7 +20,7 @@ picture img {
 }
 
 .hero-text {
-    position: sticky, absolute;
+    position: absolute;
     top: 60%;
     left: 60%;
     right: 10%;
@@ -67,5 +67,6 @@ picture img {
     display: block;
     flex: 1 1 100%;
 }
+
 
 }

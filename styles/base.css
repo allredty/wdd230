@@ -139,12 +139,6 @@ picture img {
     box-shadow: 0 2px 4px black;
 }
 
-li {
-    list-style: none;
-    padding-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 li a:hover {
     color: red;
@@ -152,11 +146,6 @@ li a:hover {
 
 li a {
     text-decoration: none;
-}
-
-.info {
-    text-align: center;
-    margin-top: 50px;
 }
 
 .card1 {
@@ -179,9 +168,6 @@ li a {
     border-radius: 5px 5px 0 0;
 }
 
-.visits {
-    margin-left: 50%;
-}
 
 .hometown {
     text-align: center;
