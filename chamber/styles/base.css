@@ -409,9 +409,21 @@ input {
 
 /* Stuff for directory page */
 
-/* Existing CSS rules */
+.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/* Directory grid view */
+.grid-view .member-card {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    text-align: center;
+}
+
 .grid-view {
     display: flex;
     flex-wrap: wrap;
@@ -425,16 +437,29 @@ input {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Directory list view */
+.member-card img {
+    max-width: 100%;
+    height: auto;
+}
+
 .list-view {
     display: block;
 }
 
+
+.list-view .member-card img {
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
 .list-view .member-card {
     display: flex;
-    justify-content: space-between;
     margin: 10px 0;
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    font-size: xx-small;
 }

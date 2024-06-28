@@ -60,147 +60,160 @@
 
 /* discover page */
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: auto;
-    gap: 20px;
-}
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
 
-.container img {
-    margin-left: 100px;
-    height: 200px;
-    transition: transform .5s;
-}
+    .container img {
+        margin-left: 100px;
+        height: 200px;
+        transition: transform .5s;
+    }
 
-.container img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
+    .container img:hover {
+        opacity: .6;
+        transform: scale(1.1);
+    }
 
-.sidebar {
-    grid-column: 1;
-}
+    .sidebar {
+        grid-column: 1;
+    }
 
-.main-content {
-    grid-column: 2;
-}
-
-
-.sidebar2 {
-    grid-column: 1;
-}
-
-.sidebar3 {
-    grid-column: 1;
-}
-
-.image-item1 {
-    grid-column: 2 ;
-    grid-row: 1 / 2;
-}
-
-.image-item2 {
-    grid-column: 3 / 4 ;
-    grid-row: 1 / 2;
-}
-
-.image-item3 {
-    grid-column: 2 ;
-    grid-row: 2 / 3;
-    margin-bottom: 50px;
-}
-
-.image-item4 {
-    grid-column: 3 / 4 ;
-    grid-row: 2 / 3;
-}
-
-.image-item5 {
-    grid-column: 2 ;
-    grid-row: 3 / 4;
-}
-
-.image-item6 {
-    grid-column: 3 / 4 ;
-    grid-row: 3 / 4;
-}
+    .main-content {
+        grid-column: 2;
+    }
 
 
+    .sidebar2 {
+        grid-column: 1;
+    }
 
+    .sidebar3 {
+        grid-column: 1;
+    }
 
-/* Join page */
-/* HTML selectors */
-input {
-    display: block;
-    margin: 20px;
-}
+    .image-item1 {
+        grid-column: 2 ;
+        grid-row: 1 / 2;
+    }
 
-input[type="radio"] {
-    margin-right: 10px;
-}
+    .image-item2 {
+        grid-column: 3 / 4 ;
+        grid-row: 1 / 2;
+    }
 
-main fieldset p {
-    margin-left: 20px;
-}
+    .image-item3 {
+        grid-column: 2 ;
+        grid-row: 2 / 3;
+        margin-bottom: 50px;
+    }
+
+    .image-item4 {
+        grid-column: 3 / 4 ;
+        grid-row: 2 / 3;
+    }
+
+    .image-item5 {
+        grid-column: 2 ;
+        grid-row: 3 / 4;
+    }
+
+    .image-item6 {
+        grid-column: 3 / 4 ;
+        grid-row: 3 / 4;
+    }
 
 
 
-/* Class selectors */
 
-.sign-up {
-    background-color: antiquewhite;
-    border: 10px solid #111D4A;
-    border-radius: 15px;
-    box-shadow: 0 0 10px black;
-    max-width: 600px;
-    margin-left: 28%;
-    margin-bottom: 70px;
-}
+    /* Join page */
+    /* HTML selectors */
+    input {
+        display: block;
+        margin: 20px;
+    }
 
-.sign-up-title {
-    text-align: center;
-    margin-bottom: 20px;
-}
+    input[type="radio"] {
+        margin-right: 10px;
+    }
 
-.info-field {
-    border-bottom: none;
-    width: 596px;
-}
+    main fieldset p {
+        margin-left: 20px;
+    }
 
 
-.join {
-    margin-bottom: 10px;
-}
 
-.membership-legend {
-    margin-top: 10px;
-}
+    /* Class selectors */
 
-.memberships {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    margin-top: 25px;
-    font-size: large;
-    background-color: white;
-}
+    .sign-up {
+        background-color: antiquewhite;
+        border: 10px solid #111D4A;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+        max-width: 600px;
+        margin-left: 28%;
+        margin-bottom: 70px;
+    }
 
-.radio {
-    width: 596px;
-}
+    .sign-up-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .info-field {
+        border-bottom: none;
+        width: 596px;
+    }
 
 
-/* ID selectors */
+    .join {
+        margin-bottom: 10px;
+    }
 
-#join {
-    width: 100px;
-    height: 30px;
-    margin-left: 230px;
-}
+    .membership-legend {
+        margin-top: 10px;
+    }
 
-#description {
-    width: 555px;
-    font-size: large;
-}
+    .memberships {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        margin-top: 25px;
+        font-size: large;
+        background-color: white;
+    }
+
+    .radio {
+        width: 596px;
+    }
+
+
+    /* ID selectors */
+
+    #join {
+        width: 100px;
+        height: 30px;
+        margin-left: 230px;
+    }
+
+    #description {
+        width: 555px;
+        font-size: large;
+    }
+
+
+    .grid-view .member-card,
+    .list-view .member-card {
+        flex: 1 1 calc(33.333% - 20px); /* Adjust width for larger screens */
+        padding: 30px; /* Further increase padding */
+        font-size: large; /* Further increase font size */
+    }
+
+    .member-card p h3{
+        text-align: center;
+    }
+
 }
