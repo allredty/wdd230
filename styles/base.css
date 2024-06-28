@@ -171,6 +171,7 @@ li a {
 
 .hometown {
     text-align: center;
+    border: 0; 
 }
 
 .map {
