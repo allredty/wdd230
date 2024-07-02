@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const directory = document.getElementById('directory');
     const toggleViewButton = document.getElementById('toggleView');
-    const baseURL = "https://allredty.github.io/wdd230/";
     const membersURL = "https://allredty.github.io/wdd230/chamber/data/members.json";
     let gridView = true;
 
@@ -22,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'member-card';
             card.innerHTML = `
-                <img src="${baseURL}chamber/images/${member.image}" alt="${member.name}">
+                <img src="${member.image}" alt="${member.name}">
                 <h3>${member.name}</h3>
                 <p>${member.address}</p>
                 <p>${member.phone}</p>

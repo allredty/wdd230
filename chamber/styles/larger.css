@@ -21,27 +21,17 @@
         font-weight: bold;
         margin-top: 18px;
     }
-
-    .weather-text {
-        font-size: 100px;
-    }
-
-    .sign-text {
-        font-size: 100px;
-    }
     
-    .weather-image {
-        height: 300px;
-        width: 500px;
-        margin: 100px;
+    .weather {
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 50px;
     }
 
-    .sign-image {
-        height: 300px;
-        width: 500px;
-        margin: 100px;
-    }
-    
+    /* .hero-image {
+        width: 1462px;
+        height: auto;
+    } */
 
     .place1 {
         width: 300px;
