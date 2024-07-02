@@ -415,7 +415,7 @@ input {
 }
 
 .grid-view .member-card {
-    flex: 1 1 calc(33.333% - 20px);
+    flex: 1 1 calc(34% - 20px);
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
