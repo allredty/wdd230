@@ -9,8 +9,8 @@
     <meta property="type" content="website">
     <meta property="image" content="https://www.cityofdelrio.com/i-want-to/stay-updated-on/destination-del-rio">
     <meta property="url" content="https://allredty.github.io/wdd230">
-    <link rel="stylesheet" href="styles\base.css">
-    <link rel="stylesheet" href="styles\larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <title>Del Rio Chamber of Commerce</title>
 </head>
@@ -30,17 +30,21 @@
         <a class="link4" href="/form.html">Contact</a>
     </nav>
 
-    <header>
-    </header>
+    <header></header>
+
+    <div id="banner" class="banner">
+        <span>Join us for the Chamber of Commerce meet and greet on Wednesday! at 7:00 p.m.</span>
+        <button id="close-banner" class="close-button">❌</button>
+    </div>
 
     <main>
-        <a>        
-            <img class="hero-image" src="images/background.jpg" alt="Picture of Lake">            
+        <a>
+            <img class="hero-image" src="images/background.jpg" alt="Picture of Lake">
         </a>
 
         <section class="weather">
-                <h1>Weather</h1>
-                <p>
+            <h1>Weather</h1>
+            <p>
                 The current temperature in Del Rio, Texas is
                 <span id="current-temp"></span>
             </p>
@@ -48,15 +52,13 @@
                 <img id="weather-icon" src="" alt="" />
                 <figcaption></figcaption>
             </figure>
-                <h2>Forecast</h2>
-                <span id="forecast"></span>
+            <h2>Forecast</h2>
+            <span id="forecast"></span>
         </section>
 
         <section class="card-2">
             <h2>Company Spotlights</h2>
-            <img class="place1" src="images/placeholder.jpg" alt="">
-            <img class="place2" src="images/placeholder2.jpg" alt="">
-            <img class="place3" src="images/placeholder3.jpg" alt="">
+            <!-- Spotlights will be inserted here by JavaScript -->
         </section>
     </main>
 
@@ -80,5 +82,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/join.js"></script>
     <script src="scripts/home-weather.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>
