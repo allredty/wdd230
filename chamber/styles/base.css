@@ -487,6 +487,11 @@ input {
     margin-left: 15px;
 }
 
+#feedback {
+    padding: 50px;
+    margin-left: 550px;
+}
+
 /* Stuff for directory page */
 
 .grid-view {
