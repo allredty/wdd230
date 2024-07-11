@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Del Rio Chamber of Commerce">
+  <meta name="author" content="Tyler Allred">
+  <meta property="title" content="chamber">
+  <meta property="type" content="website">
+  <meta property="image" content="https://www.cityofdelrio.com/i-want-to/stay-updated-on/destination-del-rio">
+  <meta property="url" content="https://allredty.github.io/wdd230">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="icon" href="favicon.ico">
+  <title>Del Rio Chamber of Commerce</title>
+</head>
+<body>
+
+    <div class="join-bar">
+      <h1>Del Rio Chamber of Commerce</h1>
+      <button class="join-button" onclick="openJoinPage()">Join Now</button>
+    </div>
+
+    <nav class="navigation">
+      <img class="logo" src="images/delriologo.png" alt="Del Rio Logo">
+      <a class="link1" href="index.html">Home</a>
+      <a class="link2" href="discover.html">Discover</a>
+      <a class="link3" href="directory.html">Directory</a>
+      <a class="link4" href="form.html">Contact</a>
+    </nav>
+
+    <main>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+    </main>
+    <footer>
+      <p>Tyler G. Allred | WDD-230 | &copy;2024</p>
+      <p id="lastModified">Last Modified: </p>
+      <a class="contact-link" href="contact">Contact Us</a>
+      <div class="social">
+          <a href="https://facebook.com" target="_blank">
+              <img src="images/facebook.png" alt="">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="">
+          </a>
+          <a href="https://instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="">
+          </a>
+      </div>
+    </footer>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function(e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
+    </body>
+</html>
