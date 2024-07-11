@@ -46,41 +46,47 @@ function displayResults(data) {
   captionDesc.textContent = `${desc}`;
 }
 
+
 function displayForecast(data) {
   forecastContainer.innerHTML = '';
-
+  
   let daysDisplayed = 0;
-
-  for (let i = 0; i < data.list.length; i++) {
-    const forecast = data.list[i];
-    const forecastTime = new Date(forecast.dt * 1000);
-
-    if (i === 0 || forecastTime.getDate() !== new Date(data.list[i - 1].dt * 1000).getDate()) {
-      const forecastItem = document.createElement('div');
-      forecastItem.classList.add('forecast-item');
-
-      const forecastTemp = document.createElement('span');
-      forecastTemp.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F-`;
-
-      const forecastDesc = document.createElement('span');
-      forecastDesc.textContent = forecast.weather[0].description;
-
-      const forecastIcon = document.createElement('img');
-      forecastIcon.setAttribute('src', `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`);
-      forecastIcon.setAttribute('alt', forecast.weather[0].description);
-
-      forecastItem.appendChild(forecastTemp);
-      forecastItem.appendChild(forecastDesc);
-      forecastItem.appendChild(forecastIcon);
-
-      forecastContainer.appendChild(forecastItem);
-
-      daysDisplayed++;
-
-      if (daysDisplayed === 3) {
-        break;
+  
+  for (let i = 1; i < data.list.length; i++) {
+      const forecast = data.list[i];
+      const forecastTime = new Date(forecast.dt * 1000);
+      const dayName = forecastTime.toLocaleDateString('en-US', { weekday: 'short' });
+      
+      if (i === 0 || forecastTime.getDate() !== new Date(data.list[i - 1].dt * 1000).getDate()) {
+          const forecastItem = document.createElement('div');
+          forecastItem.classList.add('forecast-item');
+          
+          const forecastTemp = document.createElement('span');
+          forecastTemp.innerHTML = `${forecast.main.temp.toFixed(0)}&deg;F`;
+          
+          const forecastDesc = document.createElement('p');
+          forecastDesc.textContent = forecast.weather[0].description;
+          
+          const forecastIcon = document.createElement('img');
+          forecastIcon.setAttribute('src', `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`);
+          forecastIcon.setAttribute('alt', forecast.weather[0].description);
+          
+          const forecastDay = document.createElement('p');
+          forecastDay.textContent = dayName;
+          
+          forecastItem.appendChild(forecastDay);
+          forecastItem.appendChild(forecastTemp);
+          forecastItem.appendChild(forecastDesc);
+          forecastItem.appendChild(forecastIcon);
+          
+          forecastContainer.appendChild(forecastItem);
+          
+          daysDisplayed++;
+          
+          if (daysDisplayed === 3) {
+              break;
+          }
       }
-    }
   }
 }
 

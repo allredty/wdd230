@@ -196,6 +196,10 @@ footer p {
     height: 30px;
 }
 
+.forecast-item span{
+    justify-content: space-evenly;
+}
+
 /* ID selectors */
 
 #forecast {
@@ -203,6 +207,11 @@ footer p {
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+#forecast span {
+    margin-left: 10px;
 }
 
 #lastmodified {
