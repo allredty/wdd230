@@ -206,4 +206,52 @@
         text-align: center;
     }
 
+    .card-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .spotlight {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: calc(33.333% - 20px);
+        box-sizing: border-box;
+    }
+    
+    .spotlight img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .spotlight h3 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    
+    .spotlight p {
+        margin: 5px 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .spotlight a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .spotlight a:hover {
+        text-decoration: underline;
+    }
+
 }
