@@ -506,11 +506,6 @@ input {
     margin-left: 15px;
 }
 
-#feedback {
-    padding: 50px;
-    margin-left: 550px;
-}
-
 /* Stuff for directory page */
 
 .grid-view {
@@ -566,4 +561,81 @@ input {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     background-color: white;
     font-size: xx-small;
+    justify-content: space-between;
 }
+
+/* ID selectors */
+#toggleView {
+    color: white;
+    background-color: #007bff;
+    font-size: large;
+}
+
+#toggleView:hover {
+    color: black;
+}
+
+/*Contact page*/
+
+/* HTML selectors*/
+
+.contact {
+    width: 80%;
+    max-width: 600px;
+    margin-left: 430px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", sans-serif;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 1rem;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+.contact textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+/* ID selectors*/
