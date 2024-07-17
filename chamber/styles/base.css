@@ -245,12 +245,11 @@ footer p {
 
 .container img{
     height: auto;
-    width: 361px;
+    width: 300px;
     border-radius: 10px;
     margin-top: 10px;
-    margin-left: 45px;
+    margin-left: 30px;
 }
-
 
 /* Class selectors */
 
@@ -582,7 +581,7 @@ input {
 .contact {
     width: 80%;
     max-width: 600px;
-    margin-left: 430px;
+    margin-left: 40px;
     padding: 2rem;
     border: 1px solid #ccc;
     border-radius: 10px;

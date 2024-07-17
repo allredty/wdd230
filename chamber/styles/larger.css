@@ -254,4 +254,12 @@
         text-decoration: underline;
     }
 
+    .contact {
+        margin-left: 350px;
+    }
+
+    .container img {
+        margin-left: 130px;
+    }
+
 }
